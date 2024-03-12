@@ -1,6 +1,5 @@
-# Load the pickled model
-with open('model.pkl', 'rb') as file:
-    model = pickle.load(file)
+# Load the joblib model
+model = joblib.load('your_model.joblib')
 
 # Create the Streamlit app
 def main():

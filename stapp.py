@@ -1,5 +1,9 @@
+import streamlit as st
+import joblib
+import numpy as np
+
 # Load the joblib model
-model = joblib.load('your_model.joblib')
+model = joblib.load('model.pkl')
 
 # Create the Streamlit app
 def main():
